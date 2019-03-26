@@ -26,8 +26,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 
-//    [[Animal new] eat];// 消息转发演练
-//    [self learnInvocation]; //NSInvocation学习
+
     
     id test = [[[self class] alloc] init];
     [test substringFromIndex:0];
